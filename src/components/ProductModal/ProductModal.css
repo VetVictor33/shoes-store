@@ -1,0 +1,108 @@
+.ProductModal {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #00000085;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.ProductModal .modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 774px;
+    height: 965px;
+    border-radius: 8px;
+    background-color: #FFF;
+
+    position: relative;
+}
+
+.ProductModal .modal .close-bt {
+    position: absolute;
+
+    top: 15px;
+    right: 15px;
+    font-size: 28px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.ProductModal .modal .product-img {
+    width: 100%;
+    height: auto;
+
+    padding: 60px;
+}
+
+.ProductModal .modal .product-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    text-align: center;
+}
+
+.ProductModal .modal .description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ProductModal .modal .buy-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 64px;
+}
+
+.ProductModal .modal .buy-div button {
+    width: 350px;
+    height: 64px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    text-align: center;
+
+    color: #FFFCFC;
+    background: #52BB50;
+    border: none;
+    border-radius: 8px;
+}
+
+.ProductModal .modal .prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductModal .modal .prices div {
+    display: flex;
+    gap: 5px;
+}
+
+.ProductModal .modal .old-price {}
+
+.ProductModal .modal .current-price {}
+
+.ProductModal .modal .sale {}

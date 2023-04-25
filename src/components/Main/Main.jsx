@@ -3,6 +3,7 @@ import Product from '../Product/Product'
 import './Main.css'
 
 export default function Main() {
+
     return (
         <main className='Main'>
             <div className='products'>
