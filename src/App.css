@@ -1,0 +1,10 @@
+#root {
+  max-width: 1366px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,55 @@
+.Header {
+    width: 100vw;
+    max-height: 491px;
+
+    background-image: url('../../assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-radius: 0 0 18px 18px;
+}
+
+.Header .main-title {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 103px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.Header p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.Header .logo {
+    position: absolute;
+    width: 166px;
+    height: 67px;
+    left: 33px;
+    bottom: 20px
+}
