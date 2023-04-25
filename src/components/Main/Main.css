@@ -1,13 +1,12 @@
 .Main {
     max-height: 1060px;
-    background-color: #FFF;
 }
 
 .Main .products {
     display: flex;
     flex-wrap: wrap;
-    height: 50vh;
-
+    align-items: center;
+    justify-content: center;
     color: black;
 
     padding: 80px;

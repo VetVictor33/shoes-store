@@ -1,4 +1,5 @@
 import shoes from '../../data'
+import Product from '../Product/Product'
 import './Main.css'
 
 export default function Main() {
@@ -6,9 +7,8 @@ export default function Main() {
         <main className='Main'>
             <div className='products'>
                 {shoes.map(shoe => {
-                    console.log(shoe)
                     return (
-                        <h1 key={shoe.id}>{shoe.name}</h1>
+                        <Product key={shoe.id} product={shoe} />
                     )
                 })}
             </div>
