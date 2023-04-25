@@ -1,6 +1,11 @@
 .Product {
     width: 322px;
     height: 478px;
+    cursor: pointer;
+}
+
+.Product:hover .product-div {
+    transform: scale(1.1);
 }
 
 .Product .product-img {

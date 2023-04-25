@@ -1,5 +1,5 @@
 .ProductModal {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
 
@@ -17,10 +17,11 @@
 .ProductModal .modal {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     gap: 10px;
-    width: 774px;
-    height: 965px;
+    width: 35vw;
+    height: 70vh;
     border-radius: 8px;
     background-color: #FFF;
 
@@ -36,10 +37,11 @@
     padding: 15px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
-.ProductModal .modal .product-img {
-    width: 100%;
+.ProductModal .modal .product-img-modal {
+    width: 350px;
     height: auto;
 
     padding: 60px;
@@ -89,6 +91,7 @@
     background: #52BB50;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .ProductModal .modal .prices {
@@ -100,9 +103,3 @@
     display: flex;
     gap: 5px;
 }
-
-.ProductModal .modal .old-price {}
-
-.ProductModal .modal .current-price {}
-
-.ProductModal .modal .sale {}

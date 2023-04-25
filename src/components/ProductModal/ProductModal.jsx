@@ -5,12 +5,12 @@ export default function ProductModal({ product, handleModal }) {
     return (
         <div className='ProductModal'>
             <div className='modal'>
-                <button className='close-bt'>X</button>
-                <img className='product-img' src={image} alt={name} />
+                <button className='close-bt' onClick={handleModal}>X</button>
+                <img className='product-img-modal' src={image} alt={name} />
                 <p className='product-name'>{name}</p>
                 <p className='product-description'>{description}</p>
                 <div className='buy-div'>
-                    <button>Comprar</button>
+                    <button onClick={handleModal}>Comprar</button>
                     <div className='prices'>
                         <div>
                             <p className="old-price">R${oldPrice.toFixed(2)}</p>
